@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "Adhoc">
+<test name= "Rgression"> 
+<parameter name="url" value="https://homedepot.com"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="com.HomeDepot.Bootcam_2020.NewTest"></class>
+<!-- class name="amazonregre.AmazonMaster"></class-->
+</classes>
+</test>
+<test name="It">
+<parameter name="url" value="https://amazon.com"></parameter>
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+<!-- <class name="HomeTSNG.Home_regssion"></class>-->
+<!--  class name="amazonregre.AmazonMaster"></class-->
+</classes>
+</test>
+</suite>

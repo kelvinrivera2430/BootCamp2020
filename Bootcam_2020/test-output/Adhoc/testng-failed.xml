@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Adhoc]">
+  <test thread-count="5" name="Rgression(failed)">
+    <parameter name="ChromB" value="chrome"/>
+    <parameter name="HDP" value="https://www.homedepot.com/"/>
+    <classes>
+      <class name="com.HomeDepot.Bootcam_2020.NewTest">
+        <methods>
+          <include name="Home"/>
+          <include name="beforeClass"/>
+          <include name="SignIn"/>
+        </methods>
+      </class> <!-- com.HomeDepot.Bootcam_2020.NewTest -->
+    </classes>
+  </test> <!-- Rgression(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->
